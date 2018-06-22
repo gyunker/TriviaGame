@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+</head>
+
+<body>
+
+    <section id = quiz>
+        
+        <h1 class = "logo">NBA 2018 Trivia Game</h1>
+
+        <!-- Timer -->
+        <h2 id = "timer">Time Remaining: <span id = "count"> 30 Seconds</span></h2>
+
+        <!-- Game Questions -->
+
+        <h2>1. Which NBA team won the championship in 2018?</h2>
+            <input type="radio" name="q1" value="A"> 
+            <label>Warriors</label>                
+            <input type="radio" name="q1" value="B">
+            <label>Hourston</label>
+            <input type="radio" name="q1" value="C">
+            <label>Celtics</label>
+            <input type="radio" name="q1" value="D">
+            <label>Cavaliers</label>
+
+        <h2>2. Who wears the best clothes on the Warriors?</h2>
+            <input type="radio" name="q2" value="A"> 
+            <label>Swaggy P</label>                
+            <input type="radio" name="q2" value="B">
+            <label>Klay</label>
+            <input type="radio" name="q2" value="C">
+            <label>Dramond</label>
+            <input type="radio" name="q2" value="D">
+            <label>Kevin</label>
+            
+        <h2>3. Which team with LeBron James join next?</h2>
+            <input type="radio" name="q3" value="A"> 
+            <label>Cavaliers</label>                
+            <input type="radio" name="q3" value="B">
+            <label>Hourston</label>
+            <input type="radio" name="q3" value="C">
+            <label>Lakers</label>
+            <input type="radio" name="q3" value="D">
+            <label>Spurs</label>
+            
+        <h2>4. Which NBA team will win the championship in 2019?</h2>
+            <input type="radio" name="q4" value="A"> 
+            <label>Warriors</label>                
+            <input type="radio" name="q4" value="B">
+            <label>Hourston</label>
+            <input type="radio" name="q4" value="C">
+            <label>Celtics</label>
+            <input type="radio" name="q4" value="D">
+            <label>Team Lebron</label>
+            
+        <h2>5. Which Warrior has the most technical fouls?</h2>
+            <input type="radio" name="q5" value="A"> 
+            <label>Curry</label>                
+            <input type="radio" name="q5" value="B">
+            <label>Green</label>
+            <input type="radio" name="q5" value="C">
+            <label>Durant</label>
+            <input type="radio" name="q5" value="D">
+            <label>Thompson</label>
+                
+        <br>
+        <br>
+
+        <button id="done">Submit</button>
+
+    </section>
+
+<!--Results of the quiz-->
+    <section id = results>
+        <h1>Here are your results:</h1>
+        <h2 id="wins">Correct Answers: 0</h2>
+        <h2 id="losses">Incorrect Answers: 0</h2>
+        <h2 id="unanswered">Unanswered Questions: 0</h2>
+        <br>
+        <button id="reset">Try Again</button>
+    </section>
+   
+    <section id = start>
+        <h1>Welcome to NBA 2018 Trivia:</h1>
+        <h2>Click the button below to begin</h2>
+        <br>
+        <button id="begin">Start</button>
+    </section>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
